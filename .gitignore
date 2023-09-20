@@ -1,4 +1,5 @@
-data/1000_year_simulation
-results/head_water_SWAT_1000_years
+data/1000_year_simulation/
+results/head_water_SWAT_1000_years/
 readme.ipynb
-.ipynb_checkpoints/
+.ipynb_checkpoints
+*.csv
