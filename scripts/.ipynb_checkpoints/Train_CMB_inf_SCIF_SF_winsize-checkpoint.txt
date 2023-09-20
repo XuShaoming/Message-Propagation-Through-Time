@@ -1,0 +1,188 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+2 Train_CMB_inf_SCIF_SF Q_pred_mm hs32 14 32 500 50 0.01 full_wsl 64 8 0 1
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+4 Train_CMB_inf_SCIF_SF Q_pred_mm hs32 14 32 500 50 0.01 full_wsl 64 8 0 1
+3 Train_CMB_inf_SCIF_SF Q_pred_mm hs32 14 32 500 50 0.01 full_wsl 64 8 0 1
+cuda
+['Train_CMB_inf_SCIF_winsize_demo.py', '2', 'Train_CMB_inf_SCIF_SF', 'Q_pred_mm', 'hs32', '14', '32', '500', '50', '0.01', 'full_wsl', '64', '8', '0', '1']
+Traceback (most recent call last):
+  File "/panfs/jay/groups/32/kumarv/xu000114/MPTT_Simulation/scripts_nips/Train_CMB_inf_SCIF_winsize_demo.py", line 58, in <module>
+    train_years=int(sys.argv[15])
+IndexError: list index out of range
+2 Train_CMB_inf_SCIF_SF Q_pred_mm hs32 30 32 500 50 0.01 full_wsl 64 8 0 1
+cuda
+['Train_CMB_inf_SCIF_winsize_demo.py', '2', 'Train_CMB_inf_SCIF_SF', 'Q_pred_mm', 'hs32', '30', '32', '500', '50', '0.01', 'full_wsl', '64', '8', '0', '1']
+Traceback (most recent call last):
+  File "/panfs/jay/groups/32/kumarv/xu000114/MPTT_Simulation/scripts_nips/Train_CMB_inf_SCIF_winsize_demo.py", line 58, in <module>
+    train_years=int(sys.argv[15])
+IndexError: list index out of range
+2 Train_CMB_inf_SCIF_SF Q_pred_mm hs32 90 32 500 50 0.01 full_wsl 64 8 0 1
+cuda
+['Train_CMB_inf_SCIF_winsize_demo.py', '2', 'Train_CMB_inf_SCIF_SF', 'Q_pred_mm', 'hs32', '90', '32', '500', '50', '0.01', 'full_wsl', '64', '8', '0', '1']
+Traceback (most recent call last):
+  File "/panfs/jay/groups/32/kumarv/xu000114/MPTT_Simulation/scripts_nips/Train_CMB_inf_SCIF_winsize_demo.py", line 58, in <module>
+    train_years=int(sys.argv[15])
+IndexError: list index out of range
+cuda
+['Train_CMB_inf_SCIF_winsize_demo.py', '3', 'Train_CMB_inf_SCIF_SF', 'Q_pred_mm', 'hs32', '14', '32', '500', '50', '0.01', 'full_wsl', '64', '8', '0', '1']
+Traceback (most recent call last):
+  File "/panfs/jay/groups/32/kumarv/xu000114/MPTT_Simulation/scripts_nips/Train_CMB_inf_SCIF_winsize_demo.py", line 58, in <module>
+    train_years=int(sys.argv[15])
+IndexError: list index out of range
+cuda
+['Train_CMB_inf_SCIF_winsize_demo.py', '4', 'Train_CMB_inf_SCIF_SF', 'Q_pred_mm', 'hs32', '14', '32', '500', '50', '0.01', 'full_wsl', '64', '8', '0', '1']
+Traceback (most recent call last):
+  File "/panfs/jay/groups/32/kumarv/xu000114/MPTT_Simulation/scripts_nips/Train_CMB_inf_SCIF_winsize_demo.py", line 58, in <module>
+    train_years=int(sys.argv[15])
+IndexError: list index out of range
+2 Train_CMB_inf_SCIF_SF Q_pred_mm hs32 180 32 500 50 0.01 full_wsl 64 8 0 1
+4 Train_CMB_inf_SCIF_SF Q_pred_mm hs32 30 32 500 50 0.01 full_wsl 64 8 0 1
+3 Train_CMB_inf_SCIF_SF Q_pred_mm hs32 30 32 500 50 0.01 full_wsl 64 8 0 1
+cuda
+['Train_CMB_inf_SCIF_winsize_demo.py', '2', 'Train_CMB_inf_SCIF_SF', 'Q_pred_mm', 'hs32', '180', '32', '500', '50', '0.01', 'full_wsl', '64', '8', '0', '1']
+Traceback (most recent call last):
+  File "/panfs/jay/groups/32/kumarv/xu000114/MPTT_Simulation/scripts_nips/Train_CMB_inf_SCIF_winsize_demo.py", line 58, in <module>
+    train_years=int(sys.argv[15])
+IndexError: list index out of range
+cuda
+['Train_CMB_inf_SCIF_winsize_demo.py', '4', 'Train_CMB_inf_SCIF_SF', 'Q_pred_mm', 'hs32', '30', '32', '500', '50', '0.01', 'full_wsl', '64', '8', '0', '1']
+Traceback (most recent call last):
+  File "/panfs/jay/groups/32/kumarv/xu000114/MPTT_Simulation/scripts_nips/Train_CMB_inf_SCIF_winsize_demo.py", line 58, in <module>
+    train_years=int(sys.argv[15])
+IndexError: list index out of range
+cuda
+['Train_CMB_inf_SCIF_winsize_demo.py', '3', 'Train_CMB_inf_SCIF_SF', 'Q_pred_mm', 'hs32', '30', '32', '500', '50', '0.01', 'full_wsl', '64', '8', '0', '1']
+Traceback (most recent call last):
+  File "/panfs/jay/groups/32/kumarv/xu000114/MPTT_Simulation/scripts_nips/Train_CMB_inf_SCIF_winsize_demo.py", line 58, in <module>
+    train_years=int(sys.argv[15])
+IndexError: list index out of range
+4 Train_CMB_inf_SCIF_SF Q_pred_mm hs32 90 32 500 50 0.01 full_wsl 64 8 0 1
+3 Train_CMB_inf_SCIF_SF Q_pred_mm hs32 90 32 500 50 0.01 full_wsl 64 8 0 1
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+0 Train_CMB_inf_SCIF_SF Q_pred_mm hs32 14 32 500 50 0.01 full_wsl 64 8 0 1
+cuda
+['Train_CMB_inf_SCIF_winsize_demo.py', '4', 'Train_CMB_inf_SCIF_SF', 'Q_pred_mm', 'hs32', '90', '32', '500', '50', '0.01', 'full_wsl', '64', '8', '0', '1']
+Traceback (most recent call last):
+  File "/panfs/jay/groups/32/kumarv/xu000114/MPTT_Simulation/scripts_nips/Train_CMB_inf_SCIF_winsize_demo.py", line 58, in <module>
+    train_years=int(sys.argv[15])
+IndexError: list index out of range
+cuda
+['Train_CMB_inf_SCIF_winsize_demo.py', '3', 'Train_CMB_inf_SCIF_SF', 'Q_pred_mm', 'hs32', '90', '32', '500', '50', '0.01', 'full_wsl', '64', '8', '0', '1']
+Traceback (most recent call last):
+  File "/panfs/jay/groups/32/kumarv/xu000114/MPTT_Simulation/scripts_nips/Train_CMB_inf_SCIF_winsize_demo.py", line 58, in <module>
+    train_years=int(sys.argv[15])
+IndexError: list index out of range
+4 Train_CMB_inf_SCIF_SF Q_pred_mm hs32 180 32 500 50 0.01 full_wsl 64 8 0 1
+3 Train_CMB_inf_SCIF_SF Q_pred_mm hs32 180 32 500 50 0.01 full_wsl 64 8 0 1
+cuda
+['Train_CMB_inf_SCIF_winsize_demo.py', '4', 'Train_CMB_inf_SCIF_SF', 'Q_pred_mm', 'hs32', '180', '32', '500', '50', '0.01', 'full_wsl', '64', '8', '0', '1']
+Traceback (most recent call last):
+  File "/panfs/jay/groups/32/kumarv/xu000114/MPTT_Simulation/scripts_nips/Train_CMB_inf_SCIF_winsize_demo.py", line 58, in <module>
+    train_years=int(sys.argv[15])
+IndexError: list index out of range
+cuda
+['Train_CMB_inf_SCIF_winsize_demo.py', '3', 'Train_CMB_inf_SCIF_SF', 'Q_pred_mm', 'hs32', '180', '32', '500', '50', '0.01', 'full_wsl', '64', '8', '0', '1']
+Traceback (most recent call last):
+  File "/panfs/jay/groups/32/kumarv/xu000114/MPTT_Simulation/scripts_nips/Train_CMB_inf_SCIF_winsize_demo.py", line 58, in <module>
+    train_years=int(sys.argv[15])
+IndexError: list index out of range
+cuda
+['Train_CMB_inf_SCIF_winsize_demo.py', '0', 'Train_CMB_inf_SCIF_SF', 'Q_pred_mm', 'hs32', '14', '32', '500', '50', '0.01', 'full_wsl', '64', '8', '0', '1']
+Traceback (most recent call last):
+  File "/panfs/jay/groups/32/kumarv/xu000114/MPTT_Simulation/scripts_nips/Train_CMB_inf_SCIF_winsize_demo.py", line 58, in <module>
+    train_years=int(sys.argv[15])
+IndexError: list index out of range
+0 Train_CMB_inf_SCIF_SF Q_pred_mm hs32 30 32 500 50 0.01 full_wsl 64 8 0 1
+cuda
+['Train_CMB_inf_SCIF_winsize_demo.py', '0', 'Train_CMB_inf_SCIF_SF', 'Q_pred_mm', 'hs32', '30', '32', '500', '50', '0.01', 'full_wsl', '64', '8', '0', '1']
+Traceback (most recent call last):
+  File "/panfs/jay/groups/32/kumarv/xu000114/MPTT_Simulation/scripts_nips/Train_CMB_inf_SCIF_winsize_demo.py", line 58, in <module>
+    train_years=int(sys.argv[15])
+IndexError: list index out of range
+0 Train_CMB_inf_SCIF_SF Q_pred_mm hs32 90 32 500 50 0.01 full_wsl 64 8 0 1
+cuda
+['Train_CMB_inf_SCIF_winsize_demo.py', '0', 'Train_CMB_inf_SCIF_SF', 'Q_pred_mm', 'hs32', '90', '32', '500', '50', '0.01', 'full_wsl', '64', '8', '0', '1']
+Traceback (most recent call last):
+  File "/panfs/jay/groups/32/kumarv/xu000114/MPTT_Simulation/scripts_nips/Train_CMB_inf_SCIF_winsize_demo.py", line 58, in <module>
+    train_years=int(sys.argv[15])
+IndexError: list index out of range
+0 Train_CMB_inf_SCIF_SF Q_pred_mm hs32 180 32 500 50 0.01 full_wsl 64 8 0 1
+cuda
+['Train_CMB_inf_SCIF_winsize_demo.py', '0', 'Train_CMB_inf_SCIF_SF', 'Q_pred_mm', 'hs32', '180', '32', '500', '50', '0.01', 'full_wsl', '64', '8', '0', '1']
+Traceback (most recent call last):
+  File "/panfs/jay/groups/32/kumarv/xu000114/MPTT_Simulation/scripts_nips/Train_CMB_inf_SCIF_winsize_demo.py", line 58, in <module>
+    train_years=int(sys.argv[15])
+IndexError: list index out of range
