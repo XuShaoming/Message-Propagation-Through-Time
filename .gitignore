@@ -3,3 +3,6 @@ results/head_water_SWAT_1000_years/
 readme.ipynb
 .ipynb_checkpoints
 *.csv
+scripts/.ipynb_checkpoints/
+scripts/__pycache__/
+
