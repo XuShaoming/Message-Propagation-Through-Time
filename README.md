@@ -1,7 +1,7 @@
 ## Introduction
 This repository contains the codes, datasets, and pre-trained models used for "Message propagation through time: A training algorithm to retain sample dependency"
 
-Time series modeling, a crucial area in science, often encounters challenges when training ML models like Recurrent Neural Networks (RNNs) using the conventional mini-batch training strategy that assumes independent and identically distributed (IID) samples and initializes RNNs with zero hidden states. The IID assumption ignores temporal dependencies among samples, resulting in poor performance. Stateful training strategies have been proposed to leverage hidden states to maintain relationships between samples. However, they are slow, and their rigid mini-batch structures can lead to unstable training. Other approaches, inspired by dynamical control theory, adaptively estimate responses from RNNs as the system conditions to maintain sample relationships. However, these approaches may struggle when responses encode limited temporal information and are prone to error accumulation during inference. This paper proposes Message Propagation Through Time (MPTT) algorithm to effectively incorporates long temporal dependencies while preserving fast training times like random mini-batch training. MPTT utilizes two memory modules to asynchronously manage informative initial hidden states for RNNs, fostering seamless information exchange between samples and allowing diverse mini-batches for stable training. MPTT further implements three policies to filter outdated and preserve essential information in the hidden states throughout training to generate informative initial hidden states for RNNs, facilitating more robust training compared to stateful RNNs and response-based approaches. Experimental results demonstrate that MPTT outperforms seven baselines on four climate datasets with varying levels of temporal dependencies.
+Time series modeling, a crucial area in science, often encounters challenges when training ML models like Recurrent Neural Networks (RNNs) using the conventional mini-batch training strategy that assumes independent and identically distributed (IID) samples and initializes RNNs with zero hidden states. The IID assumption ignores temporal dependencies among samples, resulting in poor performance. Stateful training strategies have been proposed to leverage hidden states to maintain relationships between samples. However, they are slow, and their rigid mini-batch structures can lead to unstable training. Other approaches, inspired by dynamical control theory, adaptively estimate responses from RNNs as the system conditions to maintain sample relationships. However, these approaches may struggle when responses encode limited temporal information and are prone to error accumulation during inference. This paper proposes Message Propagation Through Time (MPTT) algorithm to effectively incorporate long temporal dependencies while preserving fast training times relative to the stateful solutions. MPTT utilizes two memory modules to asynchronously manage informative initial hidden states for RNNs, fostering seamless information exchange between samples and allowing diverse mini-batches. MPTT further implements three policies to filter outdated and preserve essential information in the hidden states throughout epochs to generate informative initial hidden states for RNNs, facilitating more robust training compared to stateful RNNs and response-based approaches. Experimental results demonstrate that MPTT outperforms seven baselines on four climate datasets with varying levels of temporal dependencies.
 
 ![The related training and inference algorithms.](MPTT_related.png)
 ![The proposed Message Propagation through Time (MPTT) training algorithm.](MPTT.png)
@@ -24,8 +24,12 @@ conda env create -f environment.yml
 conda activate mptt_exps
 ```
 4. With the environment activated, you are now ready to run the experiments.
-## Pre-trained models
-We've provided pre-trained models to facilitate the replication of the results presented in the paper. To verify the results, please execute the following Jupyter notebooks:
+
+## Data and pre-trained models
+Please find the data and pretrained models in [this Google Drive folder](https://drive.google.com/drive/folders/1EdZPBTH0G5xg5UBkoz6UcNtLWoltA34M?usp=sharing). 
+
+## Experiment results
+To verify the results, please execute the following Jupyter notebooks:
 - experiments_general.ipynb
 - Impact_of_training_sequence_length.ipynb
 - Training_data_size_effects.ipynb
